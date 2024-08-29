@@ -1,0 +1,70 @@
+.list--header {
+    display: flex;
+    margin: 2rem 0;
+    justify-content: space-between;
+}
+.list--header {
+    color: #526d82;
+
+}
+.list--header select {
+    border-radius: 10px;
+    border: none;
+    padding: 8px 12px;
+    border: 1px slid #dde6ed;
+    color: #526d82;
+}
+.list--container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.list {
+    display: flex;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s ease-in-out;
+}
+.visitor--detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #526d82;
+}
+.visitor--detail:hover{
+    color: #fff;
+}
+.visitor--detail img {
+    width: 50px;
+    background: #dde6ed;
+    border-radius: 100%;
+}
+.list:hover {
+    background: #6845ac;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.list span {
+    margin-right: 10px;
+  }
+  
+  .list select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Style the options inside the select dropdown */
+  .list select option {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Style the selected option */
+  .list select option:checked {
+    background-color: #1b5ca1;
+    color: #fff;
+  }
